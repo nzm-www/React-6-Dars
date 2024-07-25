@@ -1,0 +1,44 @@
+.img {
+  width: 270px;
+  height: 200px;
+  border-radius: 15px;
+}
+.wrap:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+  transition: 1s;
+}
+.wrap:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+.wrap {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+  width: 300px;
+  height: 400px;
+  background: #243137;
+  color: #bd9f67;
+  border-radius: 15px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 80px;
+}
+.wrap h3 {
+  font-size: 13px;
+}
+.title {
+  text-align: center;
+  border-radius: 5px;
+  background: #00000027;
+  width: 270px;
+  height: 45px;
+  font-size: 9px;
+  padding: 5px;
+  border: 1px solid #bd9f67;
+}
+.wrap h4 {
+  padding-top: 30px;
+}
